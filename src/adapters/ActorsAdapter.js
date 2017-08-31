@@ -1,4 +1,4 @@
-const baseURL="http://localhost:3000/api/v1/actors"
+const baseURL="http://does-it-bechdel-api/api/v1/actors"
 
 export default class ActorsAdapter {
   static index(){

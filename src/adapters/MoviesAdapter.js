@@ -1,4 +1,4 @@
-const baseURL="http://localhost:3000/api/v1/movies"
+const baseURL="http://does-it-bechdel-api/api/v1/movies"
 
 export default class MoviesAdapter {
   static index(){
