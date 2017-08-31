@@ -1,6 +1,7 @@
 import React from 'react'
+import { Table } from 'semantic-ui-react'
 import DirectorsAdapter from '../adapters/DirectorsAdapter'
-
+import { Link } from 'react-router-dom'
 
 export default class DirectorInfo extends React.Component {
   constructor(){
@@ -11,7 +12,7 @@ export default class DirectorInfo extends React.Component {
   }
 
   componentDidMount(){
-    const id = this.state.director.id
+    const id = this.props.director.id
     DirectorsAdapter.show(id)
       .then(json => this.setState({
         movies: json.movies
@@ -19,8 +20,7 @@ export default class DirectorInfo extends React.Component {
   }
 
   render(){
-    return(<div>
-      </div>)
+    return(<div></div>)
   }
 
 }

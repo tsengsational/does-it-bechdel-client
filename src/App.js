@@ -6,6 +6,7 @@ import MovieContainer from './components/MovieContainer'
 import ActorContainer from './components/ActorContainer'
 import DirectorContainer from './components/DirectorContainer'
 import VideoBackground from './components/VideoBackground'
+import Navbar from './components/Navbar'
 
 class App extends Component {
   constructor(){
@@ -23,6 +24,7 @@ class App extends Component {
       <div className="App">
         <div style={{backgroundColor: 'gray', opacity: .5, width: '100vw', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: -1,}}></div>
         <VideoBackground />
+        <Navbar />
         <Route exact path='/' render={(props)=>{
           return <Home history={props.history} />
         }}/>

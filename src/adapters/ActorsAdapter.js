@@ -8,10 +8,10 @@ export default class ActorsAdapter {
       )
   }
 
-  static show(){
+  static show(id){
     return (
-      fetch(`${baseURL}/:id`)
-        .then(response => response.jason())
+      fetch(`${baseURL}/${id}`)
+        .then(response => response.json())
     )
   }
 

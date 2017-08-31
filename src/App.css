@@ -9,6 +9,17 @@
   color: white;
 }
 
+a.react-navlink {
+  font-family: "Great Vibes", serif;
+  font-size: 2em;
+  transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  color: white;
+}
+
 body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;

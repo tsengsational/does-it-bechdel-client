@@ -2,7 +2,6 @@ import React from 'react'
 import MoviesAdapter from '../adapters/MoviesAdapter'
 import { Grid , Divider, Table } from 'semantic-ui-react'
 import MovieInfo from './MovieInfo'
-import DirectorInfo from './DirectorInfo'
 import { Link } from 'react-router-dom'
 
 export default class MovieContainer extends React.Component {

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Segment, Table, Image } from 'semantic-ui-react'
-import { Link } from 'react-router-dom'
+import { Segment, Image } from 'semantic-ui-react'
 
 const MovieInfo = (props) => {
   const color = props.movie.binary === "PASS" ? "green" : "red"

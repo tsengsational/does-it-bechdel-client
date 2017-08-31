@@ -11,7 +11,7 @@ export default class DirectorsAdapter {
   static show(id){
     return (
       fetch(`${baseURL}/${id}`)
-        .then(response => response.jason())
+        .then(response => response.json())
     )
   }
 
